@@ -1,0 +1,296 @@
+body,html{
+	padding:0;
+	margin:0;
+}
+body{
+	background:'photo/resources/background.jpg'
+}
+ul {
+	padding:0;
+	margin:0 0 20px 0;
+	list-style:none;
+}
+ul li {
+	padding:0 0;
+}
+nav{
+	float:left;
+}
+a{
+	text-decoration:none;
+}
+nav ul {
+	margin:0;
+}
+
+nav ul li {
+	display:inline;
+}
+
+nav ul li a {
+	text-decoration:none;
+}
+
+nav ul li.current {
+	font-weight:bold;
+}
+
+nav ul li a.last {
+	border-right:0;
+}
+table{
+	border-spacing:0px 5px;
+	color:#fff;
+	border-color:#CCC;
+}
+select{
+	padding:8px;
+}
+#bg img{
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	img.bg {
+		left: 50%;
+		margin-left: -512px;   /* 50% */
+	}
+}
+.clearfix{
+	zoom:1;
+}
+.clearfix::after{
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.cpos{
+	margin:0 auto;
+}
+.very-small-font{
+	font-size:20px;
+}
+.small-font{
+	font-size:23px;
+}
+.medium-font{
+	font-size:25px;
+}
+.big-font{
+	font-size:30px;
+}
+.white{
+	color#fff;
+}
+.wborder{
+
+	border:3px solid #fff;
+}
+.bold{
+	font-weight:bold;
+}
+.white{
+	color:#fff;
+}
+.block{
+	display:block;
+}
+.iblock{
+	display:inline-block;
+}
+.inline{
+	display:inline;
+}
+.lfloat{
+	float:left;
+}
+.rfloat{
+	float:right;
+}
+.bradius{
+	border-radius:5px;
+}
+#page-wrap{
+	position:relative;
+	width:986px;
+	z-index:999;
+	
+}
+.top-nav-bar{
+	background:#16324f;
+	width:986px;
+	display:block;	
+	-moz-box-shadow:	 0px 7px 8px #040a0f;
+	-webkit-box-shadow:  0px 7px 8px #040a0f;
+	box-shadow: 		 0px 7px 8px #040a0f;
+}
+.top-nav-bar ul li{
+	margin-right:20px;
+}
+.top-nav-bar ul li:hover{
+	background:#1b3d5e;
+}
+.selected{
+	color:#040a0f;
+}
+#MainContainer{
+	min-height:600px;
+	color:#fff;
+	padding:20px;
+}
+#name,#college,#hname,#hcollege{
+	width:200px;
+}
+#leaderboard-header span{
+	font-weight:900;
+	color:#fff;
+	display:inline-block;
+}
+.leaderboard-container{
+	padding:10px;
+}
+.leaderboard-content span{
+	color:#a1b1e1;
+	width:150px
+}
+.LoginButtonUi,.ui-button{
+	border:1px solid rgb(28, 167, 28);
+	background:rgb(29, 114, 59);
+	height:33px;
+	min-width:65px;
+	font-weight:bold;
+	color:#ffffff;
+	display:block;
+}
+.LoginButtonUi:hover,.ui-button:hover{
+	border:1px solid #ccc;
+	-webkit-box-shadow: 0px 0px 8px rgba(255,255, 255, 1);
+	-moz-box-shadow:0px 0px 8px rgba(255, 255, 255, 1);
+	box-shadow:0px 0px 8px rgba(255, 255, 255, 1);
+	cursor:pointer;
+}
+.bg-blue{
+	background:#3400FF;
+	border:1px solid #2b00d6;
+}
+.text-ui{
+	height:33px;
+	width:200px;
+}
+.error{
+	color:#6c2222;
+	margin-top:10px;
+}
+#difficulty_container{
+	width:700px;
+	margin-top:80px;
+}
+#difficulty_container div div{
+	width:200px;
+	min-height:100px;
+	cursor:pointer;
+	background:#0b3101;
+	border-color:#020900;
+	padding:50px;
+	font-size:25px;
+	border-radius:10px;
+	
+}
+/*Made By Rhythem Aggarwal*/
+#logo img{
+	width:986px;
+	height:200px;
+}
+#difficulty_container div div span{
+	font-size:20px;
+	color:#cf5862;
+	font-weight:bold;
+	display:none;
+}
+#difficulty_container div div span a{
+	color:#fff;
+}
+#difficulty_container span{
+	margin-top:40px;
+	margin-left:20px;
+}
+#difficulty_container div div:hover{
+	-webkit-box-shadow: 0px 0px 8px rgba(255,255, 255, 1);
+	-moz-box-shadow:0px 0px 8px rgba(255, 255, 255, 1);
+	box-shadow:0px 0px 8px rgba(255, 255, 255, 1);
+	background:#104502;
+}
+#difficulty_container div div:last-child{
+	margin-left:80px;
+}
+#login{
+	padding:50px;
+	background:#8e0001;
+}
+#no-of-users{
+	margin-top:20px;
+	width:200px;
+	background:#005C1F;
+	padding:50px;
+}
+#login-container:first-child,#users-container:first-child{
+	margin-right:50px;
+	margin-left:0;
+}
+#login-form{
+	margin-left:10px;
+	margin-top:10px;
+	display:none;
+}
+#username,#password,.textboxUi{
+	padding:8px;
+	width:220px;
+	height:40px;
+	border:1px solid #ddd;
+}
+#username:hover,#password:hover,.textboxUI:hover{
+	border:1px solid #aaa;
+}
+.a li{
+	margin-bottom:5px;
+}
+.bg-gray{
+	background:#1f1d1d;
+}
+.login{
+	margin-top:10px;
+}
+.padding{
+	padding:25px;
+
+}
+#congratulation{
+	color:#510000;
+	background:#cc4800;
+	border-color:#ff5b00;
+	border-width:2px;
+	-moz-box-shadow:	3px 4px 8px #FF593E;
+	-webkit-box-shadow: 3px 4px 8px #FF593E;
+	box-shadow: 		3px 4px 8px #FF593E;
+}
+.form tr td:first-child{
+	background:#862727;
+}
+.form tr td:last-child{
+	background:none;
+}
